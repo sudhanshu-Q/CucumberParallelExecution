@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
        glue = { "com/stepDefinition/login" },
 		// tags= "P2"
 		 plugin = { "html:target/cucumber-html-report",
-				"json:target/cucumber-json-report.json" }, monochrome = true,
+				"json:target/cucumber-json-report.json" }, monochrome = false,
 					strict = true, 
 				dryRun = false
 //Comment
